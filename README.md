@@ -40,3 +40,11 @@ The balanced and PCA-transformed dataset is split into training and testing sets
 3. Execute the main script:
    ```sh
    Test_Data_Preparation.ipynb
+
+## Contributions `***`
+Contributions are welcome! Please submit a pull request or open an issue to discuss any changes.
+
+## Author
+Asieh Varyani
+
+For any inquiries, please contact a.varyani@gmail.com.
