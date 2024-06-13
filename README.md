@@ -19,3 +19,31 @@ After balancing the classes, categorical variables causing issues with the Stand
 The balanced and PCA-transformed dataset is split into training and testing sets. Initial model selection involves implementing Logistic Regression, Decision Tree, SVM, Random Forest, and Gradient Boosting, and using cross-validation to evaluate their performance. Models are compared based on 5-fold cross-validation results, with SVM and Random Forest showing the best performance, especially in terms of accuracy scores. These two models undergo hyperparameter tuning using Grid Search or Randomized Search to optimize their performance. The best parameters for SVM are {'C': 1, 'gamma': 'scale', 'kernel': 'rbf'} with a cross-validation score of 0.5977. The final models are trained using the entire training dataset with the best hyperparameters, and their performance is evaluated on the hold-out set using metrics like Accuracy, Precision, Recall, F1-Score, and ROC-AUC. To ensure efficient evaluation, the test set is sampled down to 20% of the training dataset size, approximately 2,752 data points.
 
 ## Results
+
+
+## Prerequisites
+
+## Installation
+1. Clone the repository:
+git clone https://github.com/[<username>](https://github.com/Varyania)/Bosch-production-line-performance.git
+
+2. Navigate to the project directory:
+cd Bosch-production-line-performance
+
+3. Install the required packages:
+pip install -r requirements.txt
+
+## Running the Code
+1. Run the scripts or Jupyter notebooks in the notebooks or src directories.
+2. Ensure the dataset is in the correct directory
+3. Execute the main directory:
+
+## Contribution
+Contributions are welcome! Please submit a pull request or open an issue to discuss any changes.
+
+## Author
+Asieh Varyani
+For any inquiries, please contact a.varyani@gmail.com
+
+
+
