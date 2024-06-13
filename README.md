@@ -33,3 +33,10 @@ The balanced and PCA-transformed dataset is split into training and testing sets
 2. Install the required packages:
    ```sh
    pip install -r requirements.txt
+
+## Running the Code
+1. Ensure the dataset is in the correct directory
+2. Run the scripts or Jupyter notebooks in the notebooks or src directories.
+3. Execute the main script:
+   '''sh
+   Test_Data_Preparation.ipynb
