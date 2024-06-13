@@ -41,7 +41,7 @@ The balanced and PCA-transformed dataset is split into training and testing sets
    ```sh
    Test_Data_Preparation.ipynb
 
-## Contributions `***`
+## Contributions 
 Contributions are welcome! Please submit a pull request or open an issue to discuss any changes.
 
 ## Author
