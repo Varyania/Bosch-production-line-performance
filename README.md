@@ -25,27 +25,10 @@ The balanced and PCA-transformed dataset is split into training and testing sets
 
 ## Installation
 1. Clone the repository:
-\`\`\`sh
+```sh
    git clone https://github.com/Varyania/Bosch-production-line-performance.git
    cd Bosch-production-line-performance
 
-2. Navigate to the project directory:
- !cd Bosch-production-line-performance
-
-3. Install the required packages:
-pip install -r requirements.txt
-
-## Running the Code
-1. Run the scripts or Jupyter notebooks in the notebooks or src directories.
-2. Ensure the dataset is in the correct directory
-3. Execute the main directory:
-
-## Contribution
-Contributions are welcome! Please submit a pull request or open an issue to discuss any changes.
-
-## Author
-Asieh Varyani
-For any inquiries, please contact a.varyani@gmail.com
 
 
 
