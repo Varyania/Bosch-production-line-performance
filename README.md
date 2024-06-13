@@ -31,5 +31,5 @@ The balanced and PCA-transformed dataset is split into training and testing sets
    cd Bosch-production-line-performance ```
 
 2. Install the required packages:
-```sh
-pip install -r requirements.txt
+   ```sh
+   pip install -r requirements.txt
