@@ -1,4 +1,4 @@
-```markdown
+
 # Bosch-production-line-performance
 ## Project Overview
 This project leverages advanced machine learning techniques to predict internal failures in Bosch's production lines. By analyzing measurements and tests conducted on thousands of parts, the project aims to enhance the quality control processes and reduce manufacturing costs. The dataset, sourced from a Kaggle competition, presents a challenging problem due to its large number of anonymized features and highly imbalanced nature. Various classification algorithms are tested to determine the most effective method for predicting failures and insights into the production process.
@@ -27,8 +27,8 @@ The balanced and PCA-transformed dataset is split into training and testing sets
 ## Installation
 1. Clone the repository:
 ```sh
-   git clone https://github.com/Varyania/Bosch-production-line-performance.git
-   cd Bosch-production-line-performance ```
+git clone https://github.com/Varyania/Bosch-production-line-performance.git
+cd Bosch-production-line-performance ```
 
 2. Install the required packages:
 ```sh
