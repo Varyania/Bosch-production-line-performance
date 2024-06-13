@@ -17,3 +17,5 @@ After balancing the classes, categorical variables causing issues with the Stand
 
 ### 4. Data Splitting and Model Training
 The balanced and PCA-transformed dataset is split into training and testing sets. Initial model selection involves implementing Logistic Regression, Decision Tree, SVM, Random Forest, and Gradient Boosting, and using cross-validation to evaluate their performance. Models are compared based on 5-fold cross-validation results, with SVM and Random Forest showing the best performance, especially in terms of accuracy scores. These two models undergo hyperparameter tuning using Grid Search or Randomized Search to optimize their performance. The best parameters for SVM are {'C': 1, 'gamma': 'scale', 'kernel': 'rbf'} with a cross-validation score of 0.5977. The final models are trained using the entire training dataset with the best hyperparameters, and their performance is evaluated on the hold-out set using metrics like Accuracy, Precision, Recall, F1-Score, and ROC-AUC. To ensure efficient evaluation, the test set is sampled down to 20% of the training dataset size, approximately 2,752 data points.
+
+## Results
