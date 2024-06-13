@@ -28,3 +28,7 @@ The balanced and PCA-transformed dataset is split into training and testing sets
 ```sh
    git clone https://github.com/Varyania/Bosch-production-line-performance.git
    cd Bosch-production-line-performance
+
+2. Install the required packages:
+```sh
+pip install -r requirements.txt
